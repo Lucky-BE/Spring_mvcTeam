@@ -57,7 +57,7 @@
 								<option value="5"
 									<c:if test="${noticePaging.cntPerPage == 5}">selected</c:if>>5줄 보기</option>
 								<option value="10"
-									<c:if test="${noticePaging.cntPerPage == 10}">selected</c:if>>10줄 보기</option>
+									<c:if test="${noticePaging.cntPerPage == 10}">selected ${nowPage } = 1</c:if>>10줄 보기</option>
 								<option value="15"
 									<c:if test="${noticePaging.cntPerPage == 15}">selected</c:if>>15줄 보기</option>
 								<option value="20"
